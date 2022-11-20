@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="hk_noti_max_height">256dp</dimen>
+    <dimen name="hk_noti_mid_height">128dp</dimen>
+    <dimen name="hk_noti_min_height">64dp</dimen>
+    <dimen name="hk_noti_padding">4dp</dimen>
+    <dimen name="hk_noti_panel_width">-1dp</dimen>
+    <dimen name="hk_noti_side_padding">8dp</dimen>
+</resources>

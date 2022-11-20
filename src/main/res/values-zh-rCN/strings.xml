@@ -1,0 +1,4 @@
+<resources>
+    <string name="notification_running_title">%1$s正在运行</string>
+    <string name="notification_running_warn">确保%1$s能够收到消息</string>
+</resources>

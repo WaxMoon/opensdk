@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="service_process" tools:ignore="MissingTranslation">:core</string>
+    <string name="assist_process" tools:ignore="MissingTranslation">:assist</string>
+
+    <string name="notification_running_title">%1$s is running</string>
+    <string name="notification_running_warn">Ensure %1$s can receive msg</string>
+</resources>

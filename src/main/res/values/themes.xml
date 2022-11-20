@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.ActivityAgent" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="Theme.ActivityAgentT" parent="@android:style/Theme.Translucent.NoTitleBar"/>
+</resources>

@@ -16,7 +16,7 @@
             android:theme="@style/Theme.ActivityAgentT"
             android:excludeFromRecents="true"
             android:noHistory="true"
-            android:name=".AssistActivity"
+            android:name="com.hack.assist.AssistActivity"
             android:taskAffinity="${masterPkg}.vt"
             android:exported="true"
             android:process="@string/assist_process"/>
@@ -96,7 +96,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P0"
+            android:name="com.hack.assist.AssistActivity$P0"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p0"/>
@@ -110,7 +110,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P1"
+            android:name="com.hack.assist.AssistActivity$P1"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p1"/>
@@ -124,7 +124,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P2"
+            android:name="com.hack.assist.AssistActivity$P2"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p2"/>
@@ -138,7 +138,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P3"
+            android:name="com.hack.assist.AssistActivity$P3"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p3"/>
@@ -152,7 +152,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P4"
+            android:name="com.hack.assist.AssistActivity$P4"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p4"/>
@@ -166,7 +166,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P5"
+            android:name="com.hack.assist.AssistActivity$P5"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p5"/>
@@ -180,7 +180,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P6"
+            android:name="com.hack.assist.AssistActivity$P6"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p6"/>
@@ -194,7 +194,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P7"
+            android:name="com.hack.assist.AssistActivity$P7"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p7"/>
@@ -208,7 +208,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P8"
+            android:name="com.hack.assist.AssistActivity$P8"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p8"/>
@@ -222,7 +222,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P9"
+            android:name="com.hack.assist.AssistActivity$P9"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p9"/>
@@ -236,7 +236,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P10"
+            android:name="com.hack.assist.AssistActivity$P10"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p10"/>
@@ -250,7 +250,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P11"
+            android:name="com.hack.assist.AssistActivity$P11"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p11"/>
@@ -264,7 +264,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P12"
+            android:name="com.hack.assist.AssistActivity$P12"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p12"/>
@@ -278,7 +278,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P13"
+            android:name="com.hack.assist.AssistActivity$P13"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p13"/>
@@ -292,7 +292,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P14"
+            android:name="com.hack.assist.AssistActivity$P14"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p14"/>
@@ -306,7 +306,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P15"
+            android:name="com.hack.assist.AssistActivity$P15"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p15"/>
@@ -320,7 +320,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P16"
+            android:name="com.hack.assist.AssistActivity$P16"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p16"/>
@@ -334,7 +334,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P17"
+            android:name="com.hack.assist.AssistActivity$P17"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p17"/>
@@ -348,7 +348,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P18"
+            android:name="com.hack.assist.AssistActivity$P18"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p18"/>
@@ -362,7 +362,7 @@
         <activity
             android:screenOrientation="behind"
             android:theme="@style/Theme.ActivityAgentT"
-            android:name=".AssistActivity$P19"
+            android:name="com.hack.assist.AssistActivity$P19"
             android:exported="true"
             android:taskAffinity="${masterPkg}.vt"
             android:process=":agent.p19"/>

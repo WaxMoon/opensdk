@@ -60,6 +60,8 @@ public class CmdConstants {
 
     public static final int CMD_GET_RUNTIME_PROPERTIES = 300;
 
+    public static final int CMD_REGISTER_APPLICATION_CALLBACK = 400;
+
     // CMD_GET_PKG_SETTINGS Bundle key
     public static final String PKG_SET_REQUEST_ASSISTANT = "request_assistant";
     public static final String PKG_SUPPORTED_ABIS = "supported_abis";

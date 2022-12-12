@@ -15,6 +15,8 @@ import com.hack.Slog;
 import com.hack.server.core.TransactCallback;
 import com.hack.server.core.TransactRegistry;
 
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
 import java.util.List;
 import java.util.Map;
 
@@ -304,5 +306,46 @@ public class HackApi {
         } catch (Throwable e) {
             return defaultValue;
         }
+    }
+
+    public static void registerApplicationCallback(ApplicationCallback callback){
+        Cmd.INSTANCE().exec(CmdConstants.CMD_REGISTER_APPLICATION_CALLBACK, new InvocationHandler() {
+            @Override
+            public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+                int cmd = (int) args[0];
+                switch (cmd) {
+                    case 0: {
+                        callback.onInitAppContext(args[1], (Context) args[2]);
+                        break;
+                    }
+                    case 1: {
+                        callback.onAttachBaseContext((Application) args[1]);
+                        break;
+                    }
+                    case 2: {
+                        callback.onInstallProviders((Application) args[1]);
+                        break;
+                    }
+                    case 3: {
+                        callback.onCreate((Application) args[1]);
+                        break;
+                    }
+
+                }
+                return null;
+            }
+        });
+    }
+
+    public interface ApplicationCallback {
+
+        void onInitAppContext(Object loadedApk, Context appContext);
+
+        void onAttachBaseContext(Application app);
+
+        void onInstallProviders(Application app);
+
+        void onCreate(Application app);
+
     }
 }

@@ -16,6 +16,8 @@ android {
         buildConfigField "boolean", "isMasterPkg", "${rootProject.ext.isMasterPkg}"
 
         buildConfigField "String", "ENGINE_JAR_NAME", "\"${rootProject.ext.hackJarName}\""
+        buildConfigField "String", "ASSIST_PACKAGE", "\"$rootProject.ext.assistPkg\""
+        buildConfigField "String", "MASTER_PACKAGE", "\"$rootProject.ext.masterPkg\""
 
         if (!rootProject.ext.isMasterPkg) {
             manifestPlaceholders = [masterPkg: "${rootProject.ext.masterPkg}"]

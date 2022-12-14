@@ -36,7 +36,7 @@ public class HackRuntime {
         return providerInfo;
     }
 
-    public static void install(Application app, String name, boolean check) {
+    public static void install(Context app, String name, boolean check) {
         if (hackClassLoader != null) {
             return;
         }

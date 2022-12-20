@@ -2,6 +2,8 @@ package com.hack.opensdk;
 
 import android.app.Application;
 import android.content.Context;
+import android.content.pm.PackageManager;
+import android.text.TextUtils;
 import android.util.Log;
 
 import com.hack.Features;
@@ -15,7 +17,16 @@ public class HackApplication extends Application {
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
         if (DEBUG) Log.d(TAG, "attachBaseContext start");
-        HackRuntime.install(this, "version", true);
+        Context context = base;
+        if (!TextUtils.equals(base.getPackageName(), BuildConfig.MASTER_PACKAGE)) {
+            try {
+                context = base.createPackageContext(BuildConfig.MASTER_PACKAGE, 0);
+            } catch (PackageManager.NameNotFoundException e) {
+                e.printStackTrace();
+                Log.e(TAG, "master package not install ");
+            }
+        }
+        HackRuntime.install(context, "version", true);
         Cmd.INSTANCE().exec(CmdConstants.CMD_APPLICATION_ATTACHBASE, this, base);
         if (DEBUG) Log.d(TAG, "attachBaseContext end");
     }

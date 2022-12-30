@@ -59,7 +59,11 @@ public class ForgroundService extends Service {
                     .build();
         }
 
-        //3.start
-        startForeground(FORGROUND_NOTIFICATION_ID, notification);
+        try {
+            //3.start
+            startForeground(FORGROUND_NOTIFICATION_ID, notification);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

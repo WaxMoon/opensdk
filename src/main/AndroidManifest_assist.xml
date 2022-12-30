@@ -93,286 +93,6 @@
             android:theme="@style/Theme.ActivityAgentT" >
         </activity>
 
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P0"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p0"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P0"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p0"
-            android:exported="true"
-            android:process=":agent.p0" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P1"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p1"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P1"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p1"
-            android:exported="true"
-            android:process=":agent.p1" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P2"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p2"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P2"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p2"
-            android:exported="true"
-            android:process=":agent.p2" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P3"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p3"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P3"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p3"
-            android:exported="true"
-            android:process=":agent.p3" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P4"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p4"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P4"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p4"
-            android:exported="true"
-            android:process=":agent.p4" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P5"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p5"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P5"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p5"
-            android:exported="true"
-            android:process=":agent.p5" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P6"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p6"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P6"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p6"
-            android:exported="true"
-            android:process=":agent.p6" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P7"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p7"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P7"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p7"
-            android:exported="true"
-            android:process=":agent.p7" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P8"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p8"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P8"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p8"
-            android:exported="true"
-            android:process=":agent.p8" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P9"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p9"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P9"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p9"
-            android:exported="true"
-            android:process=":agent.p9" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P10"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p10"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P10"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p10"
-            android:exported="true"
-            android:process=":agent.p10" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P11"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p11"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P11"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p11"
-            android:exported="true"
-            android:process=":agent.p11" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P12"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p12"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P12"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p12"
-            android:exported="true"
-            android:process=":agent.p12" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P13"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p13"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P13"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p13"
-            android:exported="true"
-            android:process=":agent.p13" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P14"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p14"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P14"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p14"
-            android:exported="true"
-            android:process=":agent.p14" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P15"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p15"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P15"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p15"
-            android:exported="true"
-            android:process=":agent.p15" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P16"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p16"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P16"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p16"
-            android:exported="true"
-            android:process=":agent.p16" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P17"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p17"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P17"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p17"
-            android:exported="true"
-            android:process=":agent.p17" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P18"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p18"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P18"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p18"
-            android:exported="true"
-            android:process=":agent.p18" >
-        </provider>
-
-        <activity
-            android:screenOrientation="behind"
-            android:theme="@style/Theme.ActivityAgentT"
-            android:name="com.hack.assist.AssistActivity$P19"
-            android:exported="true"
-            android:taskAffinity="${masterPkg}.vt"
-            android:process=":agent.p19"/>
-        <provider
-            android:name="com.hack.agent.HackAppProvider$P19"
-            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p19"
-            android:exported="true"
-            android:process=":agent.p19" >
-        </provider>
-
         <provider
             android:name="com.hack.assist.AssistProvider"
             android:authorities="${applicationId}:com.hack.assist.AssistProvider"
@@ -389,6 +109,1806 @@
             android:process="@string/assist_process" >
         </provider>
 
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P0"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p0"
+            android:exported="true"
+            android:process=":agent.p0" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P0"
+            android:exported="true"
+            android:process=":agent.p0"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P1"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p1"
+            android:exported="true"
+            android:process=":agent.p1" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P1"
+            android:exported="true"
+            android:process=":agent.p1"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P2"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p2"
+            android:exported="true"
+            android:process=":agent.p2" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P2"
+            android:exported="true"
+            android:process=":agent.p2"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P3"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p3"
+            android:exported="true"
+            android:process=":agent.p3" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P3"
+            android:exported="true"
+            android:process=":agent.p3"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P4"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p4"
+            android:exported="true"
+            android:process=":agent.p4" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P4"
+            android:exported="true"
+            android:process=":agent.p4"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P5"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p5"
+            android:exported="true"
+            android:process=":agent.p5" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P5"
+            android:exported="true"
+            android:process=":agent.p5"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P6"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p6"
+            android:exported="true"
+            android:process=":agent.p6" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P6"
+            android:exported="true"
+            android:process=":agent.p6"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P7"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p7"
+            android:exported="true"
+            android:process=":agent.p7" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P7"
+            android:exported="true"
+            android:process=":agent.p7"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P8"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p8"
+            android:exported="true"
+            android:process=":agent.p8" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P8"
+            android:exported="true"
+            android:process=":agent.p8"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P9"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p9"
+            android:exported="true"
+            android:process=":agent.p9" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P9"
+            android:exported="true"
+            android:process=":agent.p9"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P10"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p10"
+            android:exported="true"
+            android:process=":agent.p10" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P10"
+            android:exported="true"
+            android:process=":agent.p10"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P11"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p11"
+            android:exported="true"
+            android:process=":agent.p11" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P11"
+            android:exported="true"
+            android:process=":agent.p11"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P12"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p12"
+            android:exported="true"
+            android:process=":agent.p12" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P12"
+            android:exported="true"
+            android:process=":agent.p12"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P13"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p13"
+            android:exported="true"
+            android:process=":agent.p13" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P13"
+            android:exported="true"
+            android:process=":agent.p13"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P14"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p14"
+            android:exported="true"
+            android:process=":agent.p14" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P14"
+            android:exported="true"
+            android:process=":agent.p14"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P15"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p15"
+            android:exported="true"
+            android:process=":agent.p15" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P15"
+            android:exported="true"
+            android:process=":agent.p15"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P16"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p16"
+            android:exported="true"
+            android:process=":agent.p16" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P16"
+            android:exported="true"
+            android:process=":agent.p16"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P17"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p17"
+            android:exported="true"
+            android:process=":agent.p17" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P17"
+            android:exported="true"
+            android:process=":agent.p17"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P18"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p18"
+            android:exported="true"
+            android:process=":agent.p18" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P18"
+            android:exported="true"
+            android:process=":agent.p18"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P19"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p19"
+            android:exported="true"
+            android:process=":agent.p19" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P19"
+            android:exported="true"
+            android:process=":agent.p19"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P20"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p20"
+            android:exported="true"
+            android:process=":agent.p20" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P20"
+            android:exported="true"
+            android:process=":agent.p20"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P21"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p21"
+            android:exported="true"
+            android:process=":agent.p21" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P21"
+            android:exported="true"
+            android:process=":agent.p21"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P22"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p22"
+            android:exported="true"
+            android:process=":agent.p22" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P22"
+            android:exported="true"
+            android:process=":agent.p22"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P23"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p23"
+            android:exported="true"
+            android:process=":agent.p23" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P23"
+            android:exported="true"
+            android:process=":agent.p23"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P24"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p24"
+            android:exported="true"
+            android:process=":agent.p24" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P24"
+            android:exported="true"
+            android:process=":agent.p24"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P25"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p25"
+            android:exported="true"
+            android:process=":agent.p25" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P25"
+            android:exported="true"
+            android:process=":agent.p25"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P26"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p26"
+            android:exported="true"
+            android:process=":agent.p26" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P26"
+            android:exported="true"
+            android:process=":agent.p26"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P27"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p27"
+            android:exported="true"
+            android:process=":agent.p27" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P27"
+            android:exported="true"
+            android:process=":agent.p27"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P28"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p28"
+            android:exported="true"
+            android:process=":agent.p28" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P28"
+            android:exported="true"
+            android:process=":agent.p28"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P29"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p29"
+            android:exported="true"
+            android:process=":agent.p29" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P29"
+            android:exported="true"
+            android:process=":agent.p29"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P30"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p30"
+            android:exported="true"
+            android:process=":agent.p30" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P30"
+            android:exported="true"
+            android:process=":agent.p30"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P31"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p31"
+            android:exported="true"
+            android:process=":agent.p31" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P31"
+            android:exported="true"
+            android:process=":agent.p31"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P32"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p32"
+            android:exported="true"
+            android:process=":agent.p32" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P32"
+            android:exported="true"
+            android:process=":agent.p32"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P33"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p33"
+            android:exported="true"
+            android:process=":agent.p33" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P33"
+            android:exported="true"
+            android:process=":agent.p33"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P34"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p34"
+            android:exported="true"
+            android:process=":agent.p34" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P34"
+            android:exported="true"
+            android:process=":agent.p34"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P35"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p35"
+            android:exported="true"
+            android:process=":agent.p35" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P35"
+            android:exported="true"
+            android:process=":agent.p35"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P36"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p36"
+            android:exported="true"
+            android:process=":agent.p36" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P36"
+            android:exported="true"
+            android:process=":agent.p36"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P37"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p37"
+            android:exported="true"
+            android:process=":agent.p37" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P37"
+            android:exported="true"
+            android:process=":agent.p37"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P38"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p38"
+            android:exported="true"
+            android:process=":agent.p38" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P38"
+            android:exported="true"
+            android:process=":agent.p38"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P39"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p39"
+            android:exported="true"
+            android:process=":agent.p39" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P39"
+            android:exported="true"
+            android:process=":agent.p39"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P40"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p40"
+            android:exported="true"
+            android:process=":agent.p40" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P40"
+            android:exported="true"
+            android:process=":agent.p40"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P41"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p41"
+            android:exported="true"
+            android:process=":agent.p41" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P41"
+            android:exported="true"
+            android:process=":agent.p41"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P42"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p42"
+            android:exported="true"
+            android:process=":agent.p42" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P42"
+            android:exported="true"
+            android:process=":agent.p42"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P43"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p43"
+            android:exported="true"
+            android:process=":agent.p43" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P43"
+            android:exported="true"
+            android:process=":agent.p43"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P44"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p44"
+            android:exported="true"
+            android:process=":agent.p44" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P44"
+            android:exported="true"
+            android:process=":agent.p44"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P45"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p45"
+            android:exported="true"
+            android:process=":agent.p45" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P45"
+            android:exported="true"
+            android:process=":agent.p45"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P46"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p46"
+            android:exported="true"
+            android:process=":agent.p46" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P46"
+            android:exported="true"
+            android:process=":agent.p46"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P47"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p47"
+            android:exported="true"
+            android:process=":agent.p47" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P47"
+            android:exported="true"
+            android:process=":agent.p47"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P48"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p48"
+            android:exported="true"
+            android:process=":agent.p48" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P48"
+            android:exported="true"
+            android:process=":agent.p48"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P49"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p49"
+            android:exported="true"
+            android:process=":agent.p49" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P49"
+            android:exported="true"
+            android:process=":agent.p49"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P50"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p50"
+            android:exported="true"
+            android:process=":agent.p50" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P50"
+            android:exported="true"
+            android:process=":agent.p50"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P51"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p51"
+            android:exported="true"
+            android:process=":agent.p51" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P51"
+            android:exported="true"
+            android:process=":agent.p51"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P52"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p52"
+            android:exported="true"
+            android:process=":agent.p52" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P52"
+            android:exported="true"
+            android:process=":agent.p52"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P53"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p53"
+            android:exported="true"
+            android:process=":agent.p53" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P53"
+            android:exported="true"
+            android:process=":agent.p53"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P54"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p54"
+            android:exported="true"
+            android:process=":agent.p54" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P54"
+            android:exported="true"
+            android:process=":agent.p54"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P55"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p55"
+            android:exported="true"
+            android:process=":agent.p55" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P55"
+            android:exported="true"
+            android:process=":agent.p55"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P56"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p56"
+            android:exported="true"
+            android:process=":agent.p56" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P56"
+            android:exported="true"
+            android:process=":agent.p56"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P57"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p57"
+            android:exported="true"
+            android:process=":agent.p57" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P57"
+            android:exported="true"
+            android:process=":agent.p57"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P58"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p58"
+            android:exported="true"
+            android:process=":agent.p58" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P58"
+            android:exported="true"
+            android:process=":agent.p58"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P59"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p59"
+            android:exported="true"
+            android:process=":agent.p59" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P59"
+            android:exported="true"
+            android:process=":agent.p59"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P60"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p60"
+            android:exported="true"
+            android:process=":agent.p60" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P60"
+            android:exported="true"
+            android:process=":agent.p60"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P61"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p61"
+            android:exported="true"
+            android:process=":agent.p61" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P61"
+            android:exported="true"
+            android:process=":agent.p61"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P62"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p62"
+            android:exported="true"
+            android:process=":agent.p62" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P62"
+            android:exported="true"
+            android:process=":agent.p62"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P63"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p63"
+            android:exported="true"
+            android:process=":agent.p63" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P63"
+            android:exported="true"
+            android:process=":agent.p63"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P64"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p64"
+            android:exported="true"
+            android:process=":agent.p64" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P64"
+            android:exported="true"
+            android:process=":agent.p64"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P65"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p65"
+            android:exported="true"
+            android:process=":agent.p65" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P65"
+            android:exported="true"
+            android:process=":agent.p65"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P66"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p66"
+            android:exported="true"
+            android:process=":agent.p66" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P66"
+            android:exported="true"
+            android:process=":agent.p66"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P67"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p67"
+            android:exported="true"
+            android:process=":agent.p67" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P67"
+            android:exported="true"
+            android:process=":agent.p67"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P68"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p68"
+            android:exported="true"
+            android:process=":agent.p68" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P68"
+            android:exported="true"
+            android:process=":agent.p68"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P69"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p69"
+            android:exported="true"
+            android:process=":agent.p69" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P69"
+            android:exported="true"
+            android:process=":agent.p69"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P70"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p70"
+            android:exported="true"
+            android:process=":agent.p70" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P70"
+            android:exported="true"
+            android:process=":agent.p70"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P71"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p71"
+            android:exported="true"
+            android:process=":agent.p71" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P71"
+            android:exported="true"
+            android:process=":agent.p71"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P72"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p72"
+            android:exported="true"
+            android:process=":agent.p72" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P72"
+            android:exported="true"
+            android:process=":agent.p72"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P73"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p73"
+            android:exported="true"
+            android:process=":agent.p73" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P73"
+            android:exported="true"
+            android:process=":agent.p73"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P74"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p74"
+            android:exported="true"
+            android:process=":agent.p74" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P74"
+            android:exported="true"
+            android:process=":agent.p74"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P75"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p75"
+            android:exported="true"
+            android:process=":agent.p75" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P75"
+            android:exported="true"
+            android:process=":agent.p75"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P76"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p76"
+            android:exported="true"
+            android:process=":agent.p76" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P76"
+            android:exported="true"
+            android:process=":agent.p76"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P77"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p77"
+            android:exported="true"
+            android:process=":agent.p77" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P77"
+            android:exported="true"
+            android:process=":agent.p77"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P78"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p78"
+            android:exported="true"
+            android:process=":agent.p78" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P78"
+            android:exported="true"
+            android:process=":agent.p78"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P79"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p79"
+            android:exported="true"
+            android:process=":agent.p79" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P79"
+            android:exported="true"
+            android:process=":agent.p79"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P80"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p80"
+            android:exported="true"
+            android:process=":agent.p80" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P80"
+            android:exported="true"
+            android:process=":agent.p80"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P81"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p81"
+            android:exported="true"
+            android:process=":agent.p81" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P81"
+            android:exported="true"
+            android:process=":agent.p81"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P82"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p82"
+            android:exported="true"
+            android:process=":agent.p82" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P82"
+            android:exported="true"
+            android:process=":agent.p82"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P83"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p83"
+            android:exported="true"
+            android:process=":agent.p83" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P83"
+            android:exported="true"
+            android:process=":agent.p83"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P84"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p84"
+            android:exported="true"
+            android:process=":agent.p84" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P84"
+            android:exported="true"
+            android:process=":agent.p84"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P85"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p85"
+            android:exported="true"
+            android:process=":agent.p85" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P85"
+            android:exported="true"
+            android:process=":agent.p85"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P86"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p86"
+            android:exported="true"
+            android:process=":agent.p86" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P86"
+            android:exported="true"
+            android:process=":agent.p86"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P87"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p87"
+            android:exported="true"
+            android:process=":agent.p87" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P87"
+            android:exported="true"
+            android:process=":agent.p87"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P88"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p88"
+            android:exported="true"
+            android:process=":agent.p88" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P88"
+            android:exported="true"
+            android:process=":agent.p88"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P89"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p89"
+            android:exported="true"
+            android:process=":agent.p89" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P89"
+            android:exported="true"
+            android:process=":agent.p89"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P90"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p90"
+            android:exported="true"
+            android:process=":agent.p90" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P90"
+            android:exported="true"
+            android:process=":agent.p90"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P91"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p91"
+            android:exported="true"
+            android:process=":agent.p91" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P91"
+            android:exported="true"
+            android:process=":agent.p91"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P92"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p92"
+            android:exported="true"
+            android:process=":agent.p92" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P92"
+            android:exported="true"
+            android:process=":agent.p92"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P93"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p93"
+            android:exported="true"
+            android:process=":agent.p93" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P93"
+            android:exported="true"
+            android:process=":agent.p93"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P94"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p94"
+            android:exported="true"
+            android:process=":agent.p94" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P94"
+            android:exported="true"
+            android:process=":agent.p94"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P95"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p95"
+            android:exported="true"
+            android:process=":agent.p95" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P95"
+            android:exported="true"
+            android:process=":agent.p95"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P96"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p96"
+            android:exported="true"
+            android:process=":agent.p96" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P96"
+            android:exported="true"
+            android:process=":agent.p96"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P97"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p97"
+            android:exported="true"
+            android:process=":agent.p97" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P97"
+            android:exported="true"
+            android:process=":agent.p97"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P98"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p98"
+            android:exported="true"
+            android:process=":agent.p98" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P98"
+            android:exported="true"
+            android:process=":agent.p98"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P99"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p99"
+            android:exported="true"
+            android:process=":agent.p99" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P99"
+            android:exported="true"
+            android:process=":agent.p99"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P100"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p100"
+            android:exported="true"
+            android:process=":agent.p100" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P100"
+            android:exported="true"
+            android:process=":agent.p100"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P101"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p101"
+            android:exported="true"
+            android:process=":agent.p101" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P101"
+            android:exported="true"
+            android:process=":agent.p101"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P102"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p102"
+            android:exported="true"
+            android:process=":agent.p102" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P102"
+            android:exported="true"
+            android:process=":agent.p102"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P103"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p103"
+            android:exported="true"
+            android:process=":agent.p103" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P103"
+            android:exported="true"
+            android:process=":agent.p103"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P104"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p104"
+            android:exported="true"
+            android:process=":agent.p104" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P104"
+            android:exported="true"
+            android:process=":agent.p104"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P105"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p105"
+            android:exported="true"
+            android:process=":agent.p105" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P105"
+            android:exported="true"
+            android:process=":agent.p105"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P106"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p106"
+            android:exported="true"
+            android:process=":agent.p106" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P106"
+            android:exported="true"
+            android:process=":agent.p106"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P107"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p107"
+            android:exported="true"
+            android:process=":agent.p107" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P107"
+            android:exported="true"
+            android:process=":agent.p107"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P108"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p108"
+            android:exported="true"
+            android:process=":agent.p108" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P108"
+            android:exported="true"
+            android:process=":agent.p108"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P109"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p109"
+            android:exported="true"
+            android:process=":agent.p109" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P109"
+            android:exported="true"
+            android:process=":agent.p109"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P110"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p110"
+            android:exported="true"
+            android:process=":agent.p110" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P110"
+            android:exported="true"
+            android:process=":agent.p110"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P111"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p111"
+            android:exported="true"
+            android:process=":agent.p111" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P111"
+            android:exported="true"
+            android:process=":agent.p111"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P112"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p112"
+            android:exported="true"
+            android:process=":agent.p112" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P112"
+            android:exported="true"
+            android:process=":agent.p112"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P113"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p113"
+            android:exported="true"
+            android:process=":agent.p113" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P113"
+            android:exported="true"
+            android:process=":agent.p113"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P114"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p114"
+            android:exported="true"
+            android:process=":agent.p114" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P114"
+            android:exported="true"
+            android:process=":agent.p114"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P115"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p115"
+            android:exported="true"
+            android:process=":agent.p115" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P115"
+            android:exported="true"
+            android:process=":agent.p115"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P116"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p116"
+            android:exported="true"
+            android:process=":agent.p116" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P116"
+            android:exported="true"
+            android:process=":agent.p116"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P117"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p117"
+            android:exported="true"
+            android:process=":agent.p117" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P117"
+            android:exported="true"
+            android:process=":agent.p117"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P118"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p118"
+            android:exported="true"
+            android:process=":agent.p118" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P118"
+            android:exported="true"
+            android:process=":agent.p118"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P119"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p119"
+            android:exported="true"
+            android:process=":agent.p119" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P119"
+            android:exported="true"
+            android:process=":agent.p119"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P120"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p120"
+            android:exported="true"
+            android:process=":agent.p120" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P120"
+            android:exported="true"
+            android:process=":agent.p120"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P121"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p121"
+            android:exported="true"
+            android:process=":agent.p121" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P121"
+            android:exported="true"
+            android:process=":agent.p121"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P122"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p122"
+            android:exported="true"
+            android:process=":agent.p122" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P122"
+            android:exported="true"
+            android:process=":agent.p122"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P123"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p123"
+            android:exported="true"
+            android:process=":agent.p123" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P123"
+            android:exported="true"
+            android:process=":agent.p123"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P124"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p124"
+            android:exported="true"
+            android:process=":agent.p124" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P124"
+            android:exported="true"
+            android:process=":agent.p124"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P125"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p125"
+            android:exported="true"
+            android:process=":agent.p125" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P125"
+            android:exported="true"
+            android:process=":agent.p125"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P126"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p126"
+            android:exported="true"
+            android:process=":agent.p126" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P126"
+            android:exported="true"
+            android:process=":agent.p126"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P127"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p127"
+            android:exported="true"
+            android:process=":agent.p127" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P127"
+            android:exported="true"
+            android:process=":agent.p127"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P128"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p128"
+            android:exported="true"
+            android:process=":agent.p128" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P128"
+            android:exported="true"
+            android:process=":agent.p128"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P129"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p129"
+            android:exported="true"
+            android:process=":agent.p129" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P129"
+            android:exported="true"
+            android:process=":agent.p129"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P130"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p130"
+            android:exported="true"
+            android:process=":agent.p130" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P130"
+            android:exported="true"
+            android:process=":agent.p130"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P131"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p131"
+            android:exported="true"
+            android:process=":agent.p131" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P131"
+            android:exported="true"
+            android:process=":agent.p131"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P132"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p132"
+            android:exported="true"
+            android:process=":agent.p132" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P132"
+            android:exported="true"
+            android:process=":agent.p132"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P133"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p133"
+            android:exported="true"
+            android:process=":agent.p133" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P133"
+            android:exported="true"
+            android:process=":agent.p133"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P134"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p134"
+            android:exported="true"
+            android:process=":agent.p134" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P134"
+            android:exported="true"
+            android:process=":agent.p134"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P135"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p135"
+            android:exported="true"
+            android:process=":agent.p135" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P135"
+            android:exported="true"
+            android:process=":agent.p135"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P136"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p136"
+            android:exported="true"
+            android:process=":agent.p136" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P136"
+            android:exported="true"
+            android:process=":agent.p136"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P137"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p137"
+            android:exported="true"
+            android:process=":agent.p137" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P137"
+            android:exported="true"
+            android:process=":agent.p137"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P138"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p138"
+            android:exported="true"
+            android:process=":agent.p138" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P138"
+            android:exported="true"
+            android:process=":agent.p138"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P139"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p139"
+            android:exported="true"
+            android:process=":agent.p139" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P139"
+            android:exported="true"
+            android:process=":agent.p139"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P140"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p140"
+            android:exported="true"
+            android:process=":agent.p140" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P140"
+            android:exported="true"
+            android:process=":agent.p140"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P141"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p141"
+            android:exported="true"
+            android:process=":agent.p141" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P141"
+            android:exported="true"
+            android:process=":agent.p141"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P142"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p142"
+            android:exported="true"
+            android:process=":agent.p142" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P142"
+            android:exported="true"
+            android:process=":agent.p142"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P143"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p143"
+            android:exported="true"
+            android:process=":agent.p143" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P143"
+            android:exported="true"
+            android:process=":agent.p143"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P144"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p144"
+            android:exported="true"
+            android:process=":agent.p144" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P144"
+            android:exported="true"
+            android:process=":agent.p144"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P145"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p145"
+            android:exported="true"
+            android:process=":agent.p145" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P145"
+            android:exported="true"
+            android:process=":agent.p145"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P146"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p146"
+            android:exported="true"
+            android:process=":agent.p146" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P146"
+            android:exported="true"
+            android:process=":agent.p146"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P147"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p147"
+            android:exported="true"
+            android:process=":agent.p147" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P147"
+            android:exported="true"
+            android:process=":agent.p147"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P148"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p148"
+            android:exported="true"
+            android:process=":agent.p148" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P148"
+            android:exported="true"
+            android:process=":agent.p148"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P149"
+            android:authorities="${applicationId}:com.hack.agent.HackAppProvider.p149"
+            android:exported="true"
+            android:process=":agent.p149" />
+        <activity
+            android:name="com.hack.assist.AssistActivity$P149"
+            android:exported="true"
+            android:process=":agent.p149"
+            android:screenOrientation="behind"
+            android:taskAffinity="${masterPkg}.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
     </application>
 
 </manifest>

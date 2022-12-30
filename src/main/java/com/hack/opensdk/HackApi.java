@@ -37,7 +37,8 @@ public class HackApi {
     }
 
     /**
-     * @param packageName
+     * install the app that is installed on the system.
+     * @param packageName the packageName of this app.
      * @param userId
      * @param forceInstall
      * @return public static final int INSTALL_SUCCEEDED = 1;
@@ -47,6 +48,29 @@ public class HackApi {
                 CmdConstants.CMD_INSTALL_PACKAGE,
                 userId, packageName,
                 forceInstall ? CmdConstants.MODE_FORCE_INSTALL : 0
+        );
+    }
+
+    /**
+     * install the apk/apks that is not installed on the system.
+     * @param apkPathOrDir if this app is a full apk file, apkPathOrDir should pass an absolute path,
+     *                     such as /sdcard/com.xx.yy/com.xx.yy.apk;
+     *
+     *                     if this app is split apk files, apkPathOrDir should pass the directory
+     *                     containing all the apk files for this app, such as /sdcard/com.xx.yy/,
+     *                     and this directory can't contain apk files that do not belong to the current app.
+     *
+     * @param userId
+     * @param forceInstall
+     * @return public static final int INSTALL_SUCCEEDED = 1;
+     */
+    public static int installApkFiles(String apkPathOrDir, int userId, boolean forceInstall) {
+        int flags = CmdConstants.MODE_INSTALL_ALONE;
+        if (forceInstall) {
+            flags |= CmdConstants.MODE_FORCE_INSTALL;
+        }
+        return (int) Cmd.INSTANCE().exec(
+                CmdConstants.CMD_INSTALL_PACKAGE, userId, apkPathOrDir, flags
         );
     }
 

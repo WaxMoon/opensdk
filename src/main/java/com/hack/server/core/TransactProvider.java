@@ -1,6 +1,8 @@
 package com.hack.server.core;
 
+import static com.hack.opensdk.CmdConstants.TRANSACT_CMD_ACQUIRE_PROVIDER;
 import static com.hack.opensdk.CmdConstants.TRANSACT_CMD_OUTER_INTENT;
+import static com.hack.opensdk.CmdConstants.TRANSACT_KEY_AUTHORITY;
 import static com.hack.opensdk.CmdConstants.TRANSACT_KEY_CMD;
 import static com.hack.opensdk.CmdConstants.TRANSACT_KEY_INTENT;
 import static com.hack.opensdk.CmdConstants.TRANSACT_PROVIDER_METHOD;
@@ -61,10 +63,13 @@ public class TransactProvider extends ContentProvider {
             extras.setClassLoader(TransactProvider.class.getClassLoader());
             int cmd = extras.getInt(TRANSACT_KEY_CMD);
 
-            if (cmd == TRANSACT_CMD_OUTER_INTENT) {
+            if (cmd == TRANSACT_CMD_ACQUIRE_PROVIDER) {
+                Uri uri = extras.getParcelable(TRANSACT_KEY_AUTHORITY);
+                getContext().getContentResolver().acquireUnstableContentProviderClient(uri);
+                return null;
+            } else if (Features.DEBUG && cmd == TRANSACT_CMD_OUTER_INTENT) {
                 Slog.d("transact", "---->" + IntentUtils.toShortString((Intent) extras.getParcelable(TRANSACT_KEY_INTENT)));
             }
-
             return HackApi.getTransactRegistry().transact(getContext(), cmd, extras);
         }
         return null;

@@ -82,8 +82,11 @@ public class CmdConstants {
     public static final String TRANSACT_KEY_RESULT = "ret";
     public static final String TRANSACT_KEY_OUT_INTENT = "outIntent";
 
+    public static final String TRANSACT_KEY_AUTHORITY = "authority";
+
     public static final int TRANSACT_CMD_PROCESS_BINDED = 1;
     public static final int TRANSACT_CMD_OUTER_INTENT = 2;
+    public static final int TRANSACT_CMD_ACQUIRE_PROVIDER = 3;
     /**************END TransactProvider*******************/
 
     /**************BEGIN RUNTIME_PROPERTIES*******************/

@@ -1,6 +1,5 @@
 package com.hack.opensdk;
 
-import android.app.Application;
 import android.content.Context;
 import android.content.pm.ProviderInfo;
 import android.os.Build;
@@ -71,6 +70,7 @@ public class HackRuntime {
                     FileUtils.extractFile(sdk, "lib/", workspace);
                     object.putOpt("current", workspace.getPath());
                     object.putOpt("time", installTime);
+                    app.getSharedPreferences("hack", Context.MODE_PRIVATE).edit().putString("sp.assist.pkg", BuildConfig.ASSIST_PACKAGE).commit();
                     FileUtils.writeString(config, object.toString());
                 } catch (Throwable e) {
                     throw new RuntimeException(e);
@@ -97,7 +97,7 @@ public class HackRuntime {
         File sdk = new File(root, "base.apk");
         File engineLibDir = new File(root, "lib");
         ArrayList<String> libDirs = new ArrayList<>();
-        if (BuildConfig.isMasterPkg && Process.is64Bit()) {
+        if (Process.is64Bit()) {
             for (String abi : Build.SUPPORTED_64_BIT_ABIS) {
                 File libDir = new File(engineLibDir, abi);
                 if (libDir.exists()) libDirs.add(libDir.getAbsolutePath());

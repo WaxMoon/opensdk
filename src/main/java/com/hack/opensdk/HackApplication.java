@@ -19,7 +19,9 @@ public class HackApplication extends Application {
         super.attachBaseContext(base);
         if (DEBUG) Log.d(TAG, "attachBaseContext start");
         Context engineContext = base;
-        if (!TextUtils.equals(base.getPackageName(), BuildConfig.MASTER_PACKAGE)) {
+        if (TextUtils.equals(base.getPackageName(), BuildConfig.MASTER_PACKAGE)) {
+            engineContext.getSharedPreferences("hack", Context.MODE_PRIVATE).edit().putString("sp.assist.pkg", BuildConfig.ASSIST_PACKAGE).commit();
+        } else {
             try {
                 if (engineContext.getPackageManager().getPackageInfo(BuildConfig.MASTER_PACKAGE, 0).applicationInfo.uid == Process.myUid()) {
                     engineContext = base.createPackageContext(BuildConfig.MASTER_PACKAGE, 0);

@@ -17,6 +17,8 @@ public class CmdConstants {
     public static final int CMD_UPDATA_PACKAGE = 12;
     public static final int CMD_REMOVE_PKG_DATA = 13;
     public static final int CMD_DELETE_PKG_CACHE = 14;
+    public static final int CMD_KILL_PACKAGE = 15;
+    public static final int CMD_PACKAGE_MAYBE_VISIBLE = 16;
 
     public static final int CMD_GET_PACKAGE_INFO = 20;
     public static final int CMD_RESOLVE_INTENT = 21;

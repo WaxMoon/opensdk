@@ -70,7 +70,6 @@ public class HackRuntime {
                     FileUtils.extractFile(sdk, "lib/", workspace);
                     object.putOpt("current", workspace.getPath());
                     object.putOpt("time", installTime);
-                    app.getSharedPreferences("hack", Context.MODE_PRIVATE).edit().putString("sp.assist.pkg", BuildConfig.ASSIST_PACKAGE).commit();
                     FileUtils.writeString(config, object.toString());
                 } catch (Throwable e) {
                     throw new RuntimeException(e);

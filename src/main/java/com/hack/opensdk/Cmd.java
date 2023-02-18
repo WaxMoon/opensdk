@@ -11,7 +11,7 @@ public class Cmd {
     private static final String TAG = Cmd.class.getSimpleName();
     private static final boolean DEBUG = Features.DEBUG;
 
-    private static final String ENGINE_CMD_CLASS = "com.core.hack.Cmd";
+    private static final String ENGINE_CMD_CLASS = "com.core.Cmd";
 
     private RefUtils.MethodRef mEngineExecMethod;
 

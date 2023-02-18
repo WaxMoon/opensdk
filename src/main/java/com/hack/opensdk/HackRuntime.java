@@ -19,7 +19,7 @@ import dalvik.system.DexClassLoader;
 
 public class HackRuntime {
     private static final String ENGINE_JAR_DIR = ".plugin";
-    private static final String ENGINE_JAR_NAME = "hack.jar";
+    private static final String ENGINE_JAR_NAME = BuildConfig.ENGINE_JAR_NAME;
     private static ProviderInfo providerInfo;
     private static DexClassLoader hackClassLoader;
 

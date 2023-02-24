@@ -31,6 +31,7 @@ public class CmdConstants {
 
     public static final int CMD_START_PACKAGE = 30;
     public static final int CMD_START_ACTIVITY = 31;
+    public static final int CMD_QUICK_START_ACTIVITY = 32;
 
     public static final int CMD_REGISTER_UNINSTALL_OBSERVER = 40;
     public static final int CMD_UNREGISTER_UNINSTALL_OBSERVER = 41;

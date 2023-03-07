@@ -17,6 +17,8 @@ public class CmdConstants {
     public static final int CMD_UPDATA_PACKAGE = 12;
     public static final int CMD_REMOVE_PKG_DATA = 13;
     public static final int CMD_DELETE_PKG_CACHE = 14;
+    public static final int CMD_KILL_PACKAGE = 15;
+    public static final int CMD_PACKAGE_MAYBE_VISIBLE = 16;
 
     public static final int CMD_GET_PACKAGE_INFO = 20;
     public static final int CMD_RESOLVE_INTENT = 21;
@@ -29,6 +31,7 @@ public class CmdConstants {
 
     public static final int CMD_START_PACKAGE = 30;
     public static final int CMD_START_ACTIVITY = 31;
+    public static final int CMD_QUICK_START_ACTIVITY = 32;
 
     public static final int CMD_REGISTER_UNINSTALL_OBSERVER = 40;
     public static final int CMD_UNREGISTER_UNINSTALL_OBSERVER = 41;
@@ -82,8 +85,11 @@ public class CmdConstants {
     public static final String TRANSACT_KEY_RESULT = "ret";
     public static final String TRANSACT_KEY_OUT_INTENT = "outIntent";
 
+    public static final String TRANSACT_KEY_AUTHORITY = "authority";
+
     public static final int TRANSACT_CMD_PROCESS_BINDED = 1;
     public static final int TRANSACT_CMD_OUTER_INTENT = 2;
+    public static final int TRANSACT_CMD_ACQUIRE_PROVIDER = 3;
     /**************END TransactProvider*******************/
 
     /**************BEGIN RUNTIME_PROPERTIES*******************/

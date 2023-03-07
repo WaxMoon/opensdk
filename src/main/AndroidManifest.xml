@@ -130,7 +130,7 @@
             android:authorities="${applicationId}:com.hack.assist.AssistProvider"
             android:enabled="true"
             android:exported="true"
-            android:process="@string/service_process" />
+            android:process="@string/assist_process" />
 
         <provider
             android:name="com.hack.server.core.TransactProvider"

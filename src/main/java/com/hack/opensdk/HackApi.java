@@ -213,6 +213,14 @@ public class HackApi {
         );
     }
 
+    public static void killApplication(int userId, String pkg, String reason/*NonNull*/) {
+        Cmd.INSTANCE().exec(CmdConstants.CMD_KILL_PACKAGE, userId, pkg, reason);
+    }
+
+    public static boolean hasAnyRunningActivity(int userId, String pkg) {
+        return (boolean) Cmd.INSTANCE().exec(CmdConstants.CMD_PACKAGE_MAYBE_VISIBLE, userId, pkg);
+    }
+
     /**
      * @param callback callback必须要含有onPackageDeleted函数，hack engine会通过反射调用
      *                 public void onPackageDeleted(String packageName, int returnCode, String msg, int userId);

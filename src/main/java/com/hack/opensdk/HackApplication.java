@@ -3,6 +3,7 @@ package com.hack.opensdk;
 import android.app.Application;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.os.Process;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -17,16 +18,20 @@ public class HackApplication extends Application {
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
         if (DEBUG) Log.d(TAG, "attachBaseContext start");
-        Context context = base;
-        if (!TextUtils.equals(base.getPackageName(), BuildConfig.MASTER_PACKAGE)) {
+        Context engineContext = base;
+        if (TextUtils.equals(base.getPackageName(), BuildConfig.MASTER_PACKAGE)) {
+            engineContext.getSharedPreferences("hack", Context.MODE_PRIVATE).edit().putString("sp.assist.pkg", BuildConfig.ASSIST_PACKAGE).commit();
+        } else {
             try {
-                context = base.createPackageContext(BuildConfig.MASTER_PACKAGE, 0);
+                if (engineContext.getPackageManager().getPackageInfo(BuildConfig.MASTER_PACKAGE, 0).applicationInfo.uid == Process.myUid()) {
+                    engineContext = base.createPackageContext(BuildConfig.MASTER_PACKAGE, 0);
+                }
             } catch (PackageManager.NameNotFoundException e) {
                 e.printStackTrace();
                 Log.e(TAG, "master package not install ");
             }
         }
-        HackRuntime.install(context, "version", true);
+        HackRuntime.install(engineContext, "version", true);
         Cmd.INSTANCE().exec(CmdConstants.CMD_APPLICATION_ATTACHBASE, this, base);
         if (DEBUG) Log.d(TAG, "attachBaseContext end");
     }

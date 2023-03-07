@@ -1,6 +1,5 @@
 package com.hack.opensdk;
 
-import android.app.Application;
 import android.content.Context;
 import android.content.pm.ProviderInfo;
 import android.os.Build;
@@ -20,7 +19,7 @@ import dalvik.system.DexClassLoader;
 
 public class HackRuntime {
     private static final String ENGINE_JAR_DIR = ".plugin";
-    private static final String ENGINE_JAR_NAME = "hack.jar";
+    private static final String ENGINE_JAR_NAME = BuildConfig.ENGINE_JAR_NAME;
     private static ProviderInfo providerInfo;
     private static DexClassLoader hackClassLoader;
 
@@ -97,7 +96,7 @@ public class HackRuntime {
         File sdk = new File(root, "base.apk");
         File engineLibDir = new File(root, "lib");
         ArrayList<String> libDirs = new ArrayList<>();
-        if (BuildConfig.isMasterPkg && Process.is64Bit()) {
+        if (Process.is64Bit()) {
             for (String abi : Build.SUPPORTED_64_BIT_ABIS) {
                 File libDir = new File(engineLibDir, abi);
                 if (libDir.exists()) libDirs.add(libDir.getAbsolutePath());

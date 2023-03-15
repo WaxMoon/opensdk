@@ -8,6 +8,7 @@ import android.text.TextUtils;
 
 import com.hack.Slog;
 import com.hack.utils.FileUtils;
+import com.hack.utils.ProcessUtils;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -96,7 +97,7 @@ public class HackRuntime {
         File sdk = new File(root, "base.apk");
         File engineLibDir = new File(root, "lib");
         ArrayList<String> libDirs = new ArrayList<>();
-        if (Process.is64Bit()) {
+        if (ProcessUtils.is64Bit()) {
             for (String abi : Build.SUPPORTED_64_BIT_ABIS) {
                 File libDir = new File(engineLibDir, abi);
                 if (libDir.exists()) libDirs.add(libDir.getAbsolutePath());

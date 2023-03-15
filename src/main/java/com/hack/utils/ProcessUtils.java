@@ -4,6 +4,7 @@ import static com.hack.Features.DEBUG;
 
 import android.app.ActivityManager;
 import android.content.Context;
+import android.os.Build;
 import android.os.Process;
 import android.text.TextUtils;
 import java.io.BufferedReader;
@@ -11,6 +12,8 @@ import java.io.FileInputStream;
 import java.io.InputStreamReader;
 
 public class ProcessUtils {
+    private static boolean sbInit;
+    private static boolean sIs64bit;
     private static String sCurProcessName;
     private static ProcessType sProcessType = ProcessType.TYPE_UNKNOWN;
     public enum ProcessType {
@@ -105,6 +108,31 @@ public class ProcessUtils {
             }
         }
         return null;
+    }
+
+    public static boolean is64Bit() {
+        if (sbInit) {
+            return sIs64bit;
+        }
+
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+            sIs64bit = false;
+        } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            sIs64bit = Process.is64Bit();
+        } else {
+            final String VMRuntime_className = "dalvik.system.VMRuntime";
+            RefUtils.MethodRef method_getRuntime = new RefUtils.MethodRef(
+                    VMRuntime_className, true, "getRuntime", new Class[0]);
+            RefUtils.MethodRef method_is64Bit = new RefUtils.MethodRef(
+                    VMRuntime_className, false, "is64Bit", new Class[0]);
+
+            Object invokeResult = method_is64Bit.invoke(method_getRuntime.invoke(null));
+            if (invokeResult != null) {
+                sIs64bit = (Boolean) invokeResult;
+            }
+        }
+        sbInit = true;
+        return sIs64bit;
     }
 
     public static String typeToString(ProcessType type) {

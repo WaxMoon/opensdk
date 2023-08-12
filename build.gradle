@@ -71,7 +71,7 @@ android {
         disable "UnusedResources", 'RestrictedApi'
         disable 'TypographyFractions', 'TypographyQuotes'
         enable 'RtlHardcoded', 'RtlCompat', 'RtlEnabled'
-        check 'NewApi', 'InlinedApi'
+        checkOnly 'NewApi', 'InlinedApi'
     }
 }
 

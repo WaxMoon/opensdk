@@ -1,4 +1,4 @@
--keepclassmembers class ** implements com.hack.opensdk.IPackageObserver$Install {
+1-keepclassmembers class ** implements com.hack.opensdk.IPackageObserver$Install {
     public void onPackageInstalled(...);
 }
 
